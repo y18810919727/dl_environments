@@ -1,0 +1,11 @@
+name: rm-fix
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - nvidia::cudatoolkit=11.1
+  - python=3.8
+  - pytorch::pytorch
+  - pip:
+    - numpy
